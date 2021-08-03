@@ -1,4 +1,5 @@
 import React from "react";
+import FoodList from "../../components/FoodList";
 
 
 const Events = props => {
@@ -9,7 +10,7 @@ const Events = props => {
     <div className="info">
       <h1>Events</h1>
       <h2 className="subtitle">Event Info Below</h2>
-
+      <FoodList />
     </div>
   );
 };
